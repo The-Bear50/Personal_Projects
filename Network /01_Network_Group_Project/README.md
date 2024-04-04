@@ -1,11 +1,11 @@
 
-# Build a secure network
+# Build a secure network 💻🔐
 
 We've been asked, through Packet Tracer, to build a network design that would be secure, manageable and scalable for a fictive company. You can find the requirements here below, and all explanations in the above PDF file. This file also contains an executive summary that'll help you understand our teamwork and implementations at a glance.
 
 Enjoy your reading!
 
-## Requirements
+## Requirements 📖
 
 - Comprehensive Documentation: Create a detailed PDF or Word document describing the network design, including:
         Network diagram with annotations.
@@ -14,7 +14,7 @@ Enjoy your reading!
         Explanation of security measures and their purpose.
         Cost breakdown of network components.
 
-- Client's wishes:
+- Client's wishes: ☑️
 
         Active Directory and DNS server
 
@@ -32,7 +32,7 @@ Enjoy your reading!
 
 
 
-## Authors
+## Authors 🖋️
 
 - [@The-Bear50](https://www.github.com/The-Bear50)
 - [@ldaril](https://github.com/ldaril)
