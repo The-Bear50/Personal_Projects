@@ -68,13 +68,16 @@ For this browser, we have to follow the [tutorial](https://mullvad.net/fr/help/i
 And as you can see, it succesfully installed!
 ![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/ea74fa9e-ac16-448c-b1c9-b300db930aa5)
 #### Automatic addressing via DHCP
+If we go into our client's network interfaces and connect it to the enp0s8 interface (the one that's connected to the same network our DHCP server is in), we can see that our client can get its IP address very easily :
+
+![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/c488e45d-a736-443f-a82c-e681e8cadf8f)
 
 #### The /home folder is located on a separate partition 
 This was done during the installation of the VM, as it then asked us if we wanted to partition our disk. Since we answered yes, it then asked us, among multiple choices, if our /home partition had to be separated. To which we agreed.
 The result is then displayed via the terminal.
 ![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/a3a0bbd8-46f2-48a3-81d1-8625c1dcf5de)
 
-
+With this, we basically have set-up the mandatory requirements for our library's workstation !
 
 
 
@@ -132,8 +135,15 @@ We also shouldn't forget to adapt the file located in /etc/defaul/isc-dhcp-serve
 Here's how we configured it :
 ![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/0a5e930b-c96c-4f26-ba07-ff787ba389b7)
 
+We can now see that out DHCP server is indeed well in place and did start :
 
+![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/f9e5e707-5cb8-4a08-8ff8-8fff33cba731)
 
+However, let's check if our client can indeed get its IP address from this server by changing the workstation's interface from enp0s3 (the VM one) to enp0s8 (the server one).
+
+![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/18c83d6c-4a5d-4aff-8c93-605f2179eab1)
+
+And it indeed does connect to our previously given subnet!
 
 #### DNS via the bind9 service
 #### HTTP and mariadb via GLPI
