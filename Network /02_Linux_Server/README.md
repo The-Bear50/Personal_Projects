@@ -99,6 +99,7 @@ Since this'll make our job easier as we'll be able to copy-paste commands to ins
 [Here](https://phoenixnap.com/kb/how-to-enable-ssh-on-debian) are the instructions we followed.
 
 Of course, take into account that our own IP address was different as shown here below :
+
 ![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/49fc82a2-7e48-4cca-ad8f-7c999de746f0)
 
 #### DHCP via the isc-dhcp-server service
@@ -107,20 +108,30 @@ We install the DHCP service via a simple command :
 apt install isc-dhcp-server
 ```
 But it seems to bug, so we'll inspect this by following the CLI's advice :
+
 ![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/934cd774-78f1-4b1b-811a-4cbb2ca1ca5d)
 ![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/fd8b9808-9702-44b7-bcfa-56e8d02d3a2f)
+
 As it seems, we have an issue with our DHCP config file and with our network interfaces files. Let's check these.
 ##### network interfaces
 Let's first assign a static IP to our server.
 The file to do so is located in the /etc/network.interfaces path. It handles all the networks connected to our VM's, so we'll use it to configure which interface will distribute the IP address to our client.
 In our case, this interface is the **enp0s8** and here below is its configuration :
+
 ![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/5d2cf87c-0969-4486-b254-65cc8c156a0f)
 
 We decided to attribute our network the address 192.168.0.16/28, so that we'd be able to distribute only 14 IP's (from 17 to 30). Since we're handling a small library's network, this should be sufficient for the current needs and the future changes.
 Our server will get the static IP 192.168.0.17 so that our clients won't lose the access to it.
 ##### dhcpd.conf file
 Now that our server has a static IP, let's handle the DHCP file so that our server know which address to assign.
-The file to do so is located in the/etc/
+The file to do so is located in the /etc/dhcp/dhcpd.conf path.
+And in this file, this is how we attributed our DHCP range :
+![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/094b7426-f770-4544-a261-d4a5b5d9fce9)
+
+We also shouldn't forget to adapt the file located in /etc/defaul/isc-dhcp-server path, as it's the one we have to configure to tell our system which network interface shall distribute the DHCP request.
+Here's how we configured it :
+![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/0a5e930b-c96c-4f26-ba07-ff787ba389b7)
+
 
 
 
