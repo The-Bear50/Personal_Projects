@@ -129,7 +129,8 @@ Our server will get the static IP 192.168.0.17 so that our clients won't lose th
 Now that our server has a static IP, let's handle the DHCP file so that our server know which address to assign.
 The file to do so is located in the /etc/dhcp/dhcpd.conf path.
 And in this file, this is how we attributed our DHCP range :
-![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/094b7426-f770-4544-a261-d4a5b5d9fce9)
+
+![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/82f7f881-5d4a-4090-ae5f-471f89a2bf33)
 
 We also shouldn't forget to adapt the file located in /etc/defaul/isc-dhcp-server path, as it's the one we have to configure to tell our system which network interface shall distribute the DHCP request.
 Here's how we configured it :
@@ -146,6 +147,11 @@ However, let's check if our client can indeed get its IP address from this serve
 And it indeed does connect to our previously given subnet!
 
 #### DNS via the bind9 service
+Now that our DHCP server is up and running, let's concentrate on the bind9 DNS server. 
+First, let's install it
+```
+sudo apt install bind9
+```
 #### HTTP and mariadb via GLPI
     - **Required**
         1. Weekly backup the configuration files for each service into one single compressed archive
