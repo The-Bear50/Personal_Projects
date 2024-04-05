@@ -148,10 +148,23 @@ And it indeed does connect to our previously given subnet!
 
 #### DNS via the bind9 service
 Now that our DHCP server is up and running, let's concentrate on the bind9 DNS server. 
-First, let's install it
+First, let's install it via this command :
 ```
 sudo apt install bind9
 ```
+Second, we'll just adapt the file located at /etc/bind/named.conf.options so that it forwards all DNS requests via the Google owned DNS :
+
+![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/96d0e30f-de8a-4dbe-80e8-aeab23436737)
+
+Third and finally, we can check if the client's DNS request work fine by using the "Dig" command on a random website. Why not try it on Becode's website and see if we get an answer ?
+```
+dig @192.168.0.17 becode.org
+```
+
+![Proof dns works](https://github.com/The-Bear50/Personal_Projects/assets/85135970/1bb40795-25b3-42c4-9c71-222362116dd0)
+
+It returns us Becode's IP address as expected. 
+
 #### HTTP and mariadb via GLPI
     - **Required**
         1. Weekly backup the configuration files for each service into one single compressed archive
