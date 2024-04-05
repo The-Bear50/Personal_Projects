@@ -1,4 +1,4 @@
-![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/10a223fd-6acb-44fa-a7d5-7107914eba4f)# Project context 
+# Project context 
 The local library in your little town has no funding for Windows licenses so the director is considering Linux. Some users are sceptical and ask for a demo. The local IT company where you work is taking up the project and you are in charge of setting up a server and a workstation.
 To demonstrate this setup, you will use virtual machines and an internal virtual network (your DHCP must not interfere with the LAN).
 
