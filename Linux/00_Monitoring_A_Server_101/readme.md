@@ -9,4 +9,4 @@
 
 ## The Mission
 
-[Here](https://github.com/becodeorg/BXL-k4MK4r-2/blob/main/content/02-Linux/09-Projects/02-Monitoring_101.md) is the aime of this project summarized.
+[Here](https://github.com/becodeorg/BXL-k4MK4r-2/blob/main/content/02-Linux/09-Projects/02-Monitoring_101.md) is the aim of this project summarized.
