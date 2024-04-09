@@ -16,14 +16,17 @@
 ### Executive summary
 
 ### Introduction
-After going into the theory in 
+After going into the theory in the above PDF file, let's use the tools mentionned to monitor our own machine.
+
 ### Server Structure Overview
 •	Detailed description of the server architecture, including:
 o	Hardware components (e.g., CPU, RAM, storage)
 o	Software stack (e.g., operating system, web server, database server)
 o	Network topology (e.g., load balancers, firewalls, routers)
 •	Diagrams or visual representations may be helpful for clarity.
+
 ### Monitoring Strategy
+
 ### Risks and Threats
 •	Identify potential risks to server infrastructure:
 o	Hardware failures
