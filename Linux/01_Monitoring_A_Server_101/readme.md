@@ -18,22 +18,17 @@
 ### Introduction
 After going into the theory in the above PDF file, let's use the tools mentionned to monitor our own machine.
 
-### Server Structure Overview
-•	Detailed description of the server architecture, including:
-o	Hardware components (e.g., CPU, RAM, storage)
-o	Software stack (e.g., operating system, web server, database server)
-o	Network topology (e.g., load balancers, firewalls, routers)
-•	Diagrams or visual representations may be helpful for clarity.
+### Client Structure 
 
-### Monitoring Strategy
+The client on which we'll be performing our monitoring test has the following specs:
 
-### Risks and Threats
-•	Identify potential risks to server infrastructure:
-o	Hardware failures
-o	Software vulnerabilities
-o	Cybersecurity threats (e.g., malware, DDoS attacks)
-o	Human errors
-•	Assess the impact of these risks on performance, security, and availability.
+o	Hardware components : virtual machine with 4gb of ram, 40gb of virtual HDD and 2 CPU's
+o	OS: Debian 12.5 in a Virtualbox instance
+
+### Monitoring 
+
+
+
 
 ### Conclusion
 •	Summarize key findings and recommendations.
