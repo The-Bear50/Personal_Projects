@@ -13,7 +13,7 @@ Additional features may be added as time goes by, but here below are the reasons
 - <ins>Monitoring the server's hardware</ins> load with InfluxDB and Grafana https://www.linuxsysadmins.com/monitoring-proxmox-with-grafana/  	:traffic_light:
 
 ## Walkthrough of the project
-- [Specs of the server](https://github.com/The-Bear50/Personal_Projects/blob/main/Homelab/specs.md)
+- [Specs of the server]([https://github.com/The-Bear50/Personal_Projects/blob/main/Homelab/specs.md](https://github.com/The-Bear50/Personal_Projects/blob/main/Homelab/Specs/readme.md))
 - [Proxmox and virtualization](https://github.com/The-Bear50/Personal_Projects/blob/main/Homelab/Virtualization-setup.md)
 - [Proxmox templates and clones](https://github.com/The-Bear50/Personal_Projects/blob/main/Homelab/Proxmox%20templates%20and%20clones.md)
 - Containerization and remote access
