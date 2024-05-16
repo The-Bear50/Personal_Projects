@@ -12,7 +12,7 @@ Additional features may be added as time goes by, but here below are the reasons
 - Ability to <ins>access the server from outside</ins> via the [OpenVPN](https://openvpn.net/) solution. :motorway:
 - <ins>Monitoring the server's hardware</ins> load with InfluxDB and [Grafana](https://www.linuxsysadmins.com/monitoring-proxmox-with-grafana/) :traffic_light:
 
-## Walkthrough of the project
+## Walkthrough of the project :walking:
 - [Specs of the server](https://github.com/The-Bear50/Personal_Projects/blob/main/Homelab/Specs/readme.md)
 - [Proxmox and virtualization](https://github.com/The-Bear50/Personal_Projects/blob/main/Homelab/Proxmox%20and%20Virtualization/readme.md)
 - [Proxmox templates and clones](https://github.com/The-Bear50/Personal_Projects/blob/main/Homelab/Proxmox%20templates%20%26%20clones/readme.md)
