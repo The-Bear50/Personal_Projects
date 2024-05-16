@@ -1,6 +1,6 @@
 # Homelab :microscope:
 ## Why having a homelab :grey_question:
-The reason I'm getting interested in homelabing is, unsurprinsingly, certainly the same reason many others do : testing projects I read about on the internet. It seems like the funniest way to try stuff one's stumbles upon while browsing, and in my case it also is a way to practice further the theory I learn on a day-to-day basis during my bootcamp and my researches.
+The reason I'm getting interested in homelabing is, unsurprinsingly, certainly for the same reasons many others do : testing projects I read about on the internet. It seems like the funniest way to try stuff one's stumbles upon while browsing, and in my case it also is a way to practice further the theory I learn on a day-to-day basis during my bootcamp and my researches.
 
 Without further ado, let's summarize what this project currently will focus on.
 ## Scope of the project :mag:
