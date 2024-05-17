@@ -1,2 +1,2 @@
-# Personal_Projects
-This repository contains a list of projects done either within the frame of my studies or my leisure time.
+# Personal_Projects 🌻
+This repository contains a list of projects done in my leisure time.
