@@ -18,4 +18,4 @@ Additional features may be added as time goes by, but here below are the reasons
 - [Proxmox templates and clones](https://github.com/The-Bear50/Personal_Projects/blob/main/Homelab/Proxmox%20templates%20%26%20clones/readme.md)
 - Containerization and remote access
 - Monitoring the server
-- SIEM/XDR solution
+- SIEM solution
