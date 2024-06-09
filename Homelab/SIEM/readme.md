@@ -4,7 +4,7 @@ Since I'd like to dig deeper into blue team solutions that collect, gather and p
 
 The [official website](https://docs.securityonion.net/en/2.4/hardware.html) tells us that the least resource hungry version of SO is the "Standalone" version, so we'll take it into account when setting everything up:
 
-![image-1](https://github.com/The-Bear50/Personal_Projects/assets/85135970/b1638abe-129c-4f61-8ec6-fc97049e1dab)
+![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/11b558da-a485-43f1-81a5-f39f6fdf1b68)
 
 ## VM creation and config
 
@@ -12,8 +12,8 @@ We'll add SO's ISO image to our server. Let's go to the "Local (Serveur)" sectio
 
 This should fill all the info for you. Click then on "Download" and wait for it to finish
 
-![alt text](image-1-2.png)
-![alt text](image-2.png)
+![image-1](https://github.com/The-Bear50/Personal_Projects/assets/85135970/b1638abe-129c-4f61-8ec6-fc97049e1dab)
+![image-2](https://github.com/The-Bear50/Personal_Projects/assets/85135970/fcae0630-f4e7-465f-a0bb-7783a1c8802b)
 
 When it's done, we'll verify the ISO to ensure it's indeed the right one. To do so, we'll import [Security Onion's signing key](https://github.com/Security-Onion-Solutions/securityonion/blob/2.4/main/DOWNLOAD_AND_VERIFY_ISO.md) in our server and use it to check the ISO.
 
@@ -36,11 +36,11 @@ gpg --verify securityonion-2.4.70-20240529.iso.sig securityonion-2.4.70-20240529
 
 If everything goes right, this is what you should get as an answer :
 
-![alt text](image-3.png)
+![image-3](https://github.com/The-Bear50/Personal_Projects/assets/85135970/698ee0ed-4604-4a74-9692-4838f25c86da)
 
 You can then create a new VM following the hardware requirements and the [Proxmox page on SO's website](https://docs.securityonion.net/en/2.4/proxmox.html#proxmox). I personally ended up with the below requirements :
 
-![alt text](image-5.png)
+![image-5](https://github.com/The-Bear50/Personal_Projects/assets/85135970/d5ccc85c-749b-46d9-8c7c-42ef045f24b8)
 
 ## OS installation
 
@@ -48,32 +48,31 @@ I won't detail the installation process here as the [official website](https://d
 
 The only thing I'd advise to go for when you launch the OS first <b>in case you get stuck after getting the message "reached target path unit"</b>, is to choose the below option as it's similar to the default one, but doesn't trigger any bug.
 
-![alt text](image-6.png)
+![image-6](https://github.com/The-Bear50/Personal_Projects/assets/85135970/f4d95b5c-a038-4d42-a6d0-6278de6d1041)
 
 When it has finished installing, it'll reboot and prompt up the below screen :
 
-![alt text](image-4.png)
+![image-4](https://github.com/The-Bear50/Personal_Projects/assets/85135970/4ed2412a-5f5a-4325-bfdc-e87ec51e9cc3)
 
 Follow all the instructions from Security Onion's first time users' page and it should be fine !
 The only changed I made, as the below summary shows, is to adapt the DNS servers to only allow the one from Quad9 (9.9.9.9)
 
-![alt text](image-7.png)
+![image-7](https://github.com/The-Bear50/Personal_Projects/assets/85135970/96daf6e5-f966-411b-9359-837b5f4040e1)
 
 It's going to take a while to install everything so go for a walk or read something!
 
 When over, this is the screen you'll get :
 
-![alt text](image-8.png)
+![image-8](https://github.com/The-Bear50/Personal_Projects/assets/85135970/8e11ba97-4c1a-44e0-a052-50061d132432)
 
 ## Web UI 
 Following the above instruction, we visit our web UI through the previously configured IP :
 
-![alt text](image-9.png)
+![image-9](https://github.com/The-Bear50/Personal_Projects/assets/85135970/f792170a-2c22-4994-b7f1-3cfb2ce32076)
 
 Following the instructions, we're going to the "grid" section to see if everything is setup properly (which it is) :
 
-![alt text](image-10.png)
-
+![image-10](https://github.com/The-Bear50/Personal_Projects/assets/85135970/f78306d1-9b8e-418d-8da1-8554b71227e5)
 
 ## Conclusion
 
