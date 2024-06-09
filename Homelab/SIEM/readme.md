@@ -4,7 +4,7 @@ Since I'd like to dig deeper into blue team solutions that collect, gather and p
 
 The [official website](https://docs.securityonion.net/en/2.4/hardware.html) tells us that the least resource hungry version of SO is the "Standalone" version, so we'll take it into account when setting everything up:
 
-![alt text](image-1.png)
+[![alt text](image-1.png)](https://github.com/The-Bear50/Personal_Projects/blob/main/Homelab/SIEM/Assets/image-1.png)
 
 ## VM creation and config
 
