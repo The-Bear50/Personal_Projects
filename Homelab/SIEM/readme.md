@@ -4,7 +4,7 @@ Since I'd like to dig deeper into blue team solutions that collect, gather and p
 
 The [official website](https://docs.securityonion.net/en/2.4/hardware.html) tells us that the least resource hungry version of SO is the "Standalone" version, so we'll take it into account when setting everything up:
 
-[![alt text](image-1.png)]
+![image-1](https://github.com/The-Bear50/Personal_Projects/assets/85135970/b1638abe-129c-4f61-8ec6-fc97049e1dab)
 
 ## VM creation and config
 
