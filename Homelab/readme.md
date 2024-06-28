@@ -16,6 +16,6 @@ Additional features may be added as time goes by, but here below are the reasons
 - [Specs of the server](https://github.com/The-Bear50/Personal_Projects/blob/main/Homelab/Specs/readme.md)
 - [Proxmox and virtualization](https://github.com/The-Bear50/Personal_Projects/blob/main/Homelab/Proxmox%20and%20Virtualization/readme.md)
 - [Proxmox templates and clones](https://github.com/The-Bear50/Personal_Projects/blob/main/Homelab/Proxmox%20templates%20%26%20clones/readme.md)
-- Containerization and remote access
+- [Containerization and remote access](https://github.com/The-Bear50/Personal_Projects/tree/main/Homelab/Containerization%20%26%20remote%20access)
 - Monitoring the server
 - [SIEM solution](https://github.com/The-Bear50/Personal_Projects/tree/main/Homelab/SIEM)
