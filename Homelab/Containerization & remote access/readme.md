@@ -118,6 +118,9 @@ When done, create a new user for the host that'll have to connect from afar. Use
 ![image-12](https://github.com/The-Bear50/Personal_Projects/assets/85135970/6afe667f-bf5a-4f3b-a87f-9939ffbc95ff)
 
 ### Errors when trying to launch your server
+
+1. Tun file not found
+
 Now, if you followed everything until here, you'll surely end up with errors when trying to launch your system because it tells you that it can't find the "/dev/net/tun" file it needs to run.
 
 ![12-1](https://github.com/The-Bear50/Personal_Projects/assets/85135970/27f6b76d-a874-48a9-b50b-9ed6b4e2c30f)
@@ -131,6 +134,20 @@ BUT, if you actually did it and still get errors and end up with an unbootable c
 When done so on my side, the server was running without issue afterwards
 
 ![image-16](https://github.com/The-Bear50/Personal_Projects/assets/85135970/2a2c71e6-9ddf-4e98-874c-0eca4ce350cd)
+
+2. Home network's public IP address
+
+For your remote connection to exist, you need your remote host to connect via your home network's **public** IP. This is by default not available in Belgium on your router, so you may need to ask to your ISP to unlock this.
+
+Since I was a client of Zuny, I found out that merely asking them via Whatsapp about unlocking this public IP for my server purposes was enough. In 30 minutes, I got it and could then adapt my OpenVPN's IP address to match it.
+
+Also, do not forget to forward the relevant port on your router so that OpenVPN gets access to your home network.
+
+![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/ab0d4cea-a2fd-4438-b018-93146b7ecc3b)
+
+
+![image](https://github.com/The-Bear50/Personal_Projects/assets/85135970/2893800d-a7d9-4cc9-b86f-2e169fed47e3)
+
 
 ## Installation of the OpenVPN client on the remote host
 
